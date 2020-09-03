@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200902172623_CreateConfigurationOnTerritoryAndPreschoolInstitution.cs" />
+    <Compile Remove="Migrations\20200902175525_AddContactPersonTable.cs" />
+    <Compile Remove="Migrations\20200902180548_AddCourseTable.cs" />
+    <Compile Remove="Migrations\20200902181629_AddTrainerConfiguration.cs" />
+    <Compile Remove="Migrations\20200902181657_AddTrainerConfiguration.cs" />
+    <Compile Remove="Migrations\20200902181753_AddTrainerConfiguration.cs" />
+    <Compile Remove="Migrations\20200902182647_AddCourseRealizationConfiguration.cs" />
+    <Compile Remove="Migrations\20200902184003_AddInvoiceConfiguration.cs" />
+    <Compile Remove="Migrations\20200902184810_AddInvoiceTable.cs" />
+    <Compile Remove="Migrations\20200903191706_AddTestTable.cs" />
+    <Compile Remove="Migrations\20200903191813_AddTestTable.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
