@@ -16,6 +16,8 @@ namespace Domain.EntityConfiguration
 
             builder.HasOne(x => x.Invoice).WithMany(x => x.InvoiceItems).HasForeignKey(x => new { x.InvoiceID, x.TrainerID, x.YearID });
 
+            builder.HasOne(x => x.Wage).WithMany(x => x.InvoiceItems).HasForeignKey(x => x.WageId);
+
             builder.Property(x => x.Description).HasMaxLength(100);
         }
     }

@@ -20,7 +20,6 @@ namespace Domain
         public DbSet<CourseRealizationTrainer> CourseRealizationTrainers { get; set; }
         public DbSet<Wage> Wages { get; set; }
         public DbSet<Invoice> Invoices { get; set; }
-        public DbSet<Test> Tests { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

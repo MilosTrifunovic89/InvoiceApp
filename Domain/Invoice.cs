@@ -20,12 +20,12 @@ namespace Domain
 
         public DateTime DateInvoice { get; set; }
 
-        public int WageID { get; set; }
-        public Wage Wage { get; set; }//brise se 
+        //public int WageID { get; set; }
+        //public Wage Wage { get; set; }//brise se 
 
-        public decimal WageAmount { get; set; }//brise se
+        //public decimal WageAmount { get; set; }//brise se
 
-        //total
+        public decimal? Total { get; set; }//total
 
         public bool Satus { get; set; }
 

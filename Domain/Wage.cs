@@ -14,6 +14,6 @@ namespace Domain
 
         public decimal WageRSD { get; set; } // ovde bih za ubuduce stavio dnevnicu u evrima koju ce sam da preracunava, mesec i godina ako je moguce da se 
                                              // automatski upisuju, tako da sa ovom tabelom nema posla
-        public ICollection<Invoice> Invoices { get; set; }
+        public ICollection<InvoiceItem> InvoiceItems { get; set; }
     }
 }

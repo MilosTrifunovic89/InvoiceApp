@@ -24,8 +24,9 @@ namespace Domain
 
         public virtual Invoice Invoice { get; set; }
 
-        //total stavka
+        public decimal? Total { get; set; }//total stavka
 
-        //wage id
+        public int WageId { get; set; }//wage id
+        public Wage Wage { get; set; }
     }
 }

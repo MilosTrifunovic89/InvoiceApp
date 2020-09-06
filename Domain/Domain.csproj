@@ -16,6 +16,7 @@
     <Compile Remove="Migrations\20200902184810_AddInvoiceTable.cs" />
     <Compile Remove="Migrations\20200903191706_AddTestTable.cs" />
     <Compile Remove="Migrations\20200903191813_AddTestTable.cs" />
+    <Compile Remove="Migrations\20200906073640_AddWageOnInvoiceItem.cs" />
   </ItemGroup>
 
   <ItemGroup>

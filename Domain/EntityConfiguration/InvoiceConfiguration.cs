@@ -14,7 +14,7 @@ namespace Domain.EntityConfiguration
 
             builder.HasOne(x => x.Trainer).WithMany(x => x.Invoices).HasForeignKey(x => x.TrainerID);
 
-            builder.HasOne(x => x.Wage).WithMany(x => x.Invoices).HasForeignKey(x => x.WageID);
+            //builder.HasOne(x => x.Wage).WithMany(x => x.Invoices).HasForeignKey(x => x.WageID);
         }
     }
 }
