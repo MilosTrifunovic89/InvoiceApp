@@ -3,12 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Invoice.Controllers
 {
-    public class HomeController : Controller
+    public class AccountController : Controller
     {
+        [HttpGet]
         [AllowAnonymous]
-        public ViewResult Index()
+        public IActionResult Login()
         {
-            return View("Index");
+            return View();
         }
     }
 }

@@ -13,8 +13,18 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#line 4 "D:\Projekti\Fakturisanje\Invoice\Views\_ViewImports.cshtml"
+using Invoice.ViewModels;
+
+#line default
+#line hidden
+#line 5 "D:\Projekti\Fakturisanje\Invoice\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9af4978b9c2bfca24ef48e96efe5f8573634464", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca02d9635de75706fe7d1891cc77ed3c652db84b", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

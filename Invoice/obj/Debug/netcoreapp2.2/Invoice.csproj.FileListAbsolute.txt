@@ -26,3 +26,4 @@ D:\Projekti\Fakturisanje\Invoice\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImport
 D:\Projekti\Fakturisanje\Invoice\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 D:\Projekti\Fakturisanje\Invoice\bin\Debug\netcoreapp2.2\Domain.dll
 D:\Projekti\Fakturisanje\Invoice\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\Projekti\Fakturisanje\Invoice\obj\Debug\netcoreapp2.2\Razor\Views\Account\login.g.cshtml.cs
